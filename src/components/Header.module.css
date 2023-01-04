@@ -1,0 +1,31 @@
+.header {
+    background-color: #282c34;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+  }
+
+.option:hover{
+    margin: 0 15px;
+    background-color: white;
+    color: black;
+    transition: 250ms;
+  }
